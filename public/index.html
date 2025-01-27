@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Department of Artificial Intelligence (AI) - IIT Hyderabad
+        </title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="node_modules/font-awesome/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap-social/bootstrap-social.css"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="shortcut icon" type="image/png" href="img/iithlogo.png" />
+        <style>
+            .badge {
+                display: inline-block;
+                padding: 5px 10px;
+                /* Adjust padding as needed */
+                border-radius: 5px;
+                /* Rounded corners */
+                font-size: 12px;
+                /* Adjust font size as needed */
+                animation: badgeAnimation 2s infinite alternate;
+                /* Animation */
+            }
+
+            @keyframes badgeAnimation {
+                0% {
+                    background-color: #007bff;
+                    /* Start color */
+                    color: #fff;
+                    /* Start text color */
+                }
+
+                50% {
+                    background-color: #28a745;
+                    /* Middle color */
+                    color: #fff;
+                    /* Middle text color */
+                }
+
+                100% {
+                    background-color: #dc3545;
+                    /* End color */
+                    color: #fff;
+                    /* End text color */
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+            <div class="home col-7 col-lg-4">
+                <a href="index.html">
+                    <img
+                        src="img/iithlogo.png"
+                        alt="IITH Logo"
+                        width="70px"
+                        height="70px"
+                    />
+                    <div class="text-middle">
+                        <span class="bold-green"
+                            >Department of Artificial Intelligence</span
+                        >
+                        <br />
+                        <span class="IITH"
+                            >Indian Institute of Technology, Hyderabad</span
+                        >
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-dark collapse-button d-inline-block d-md-none">
+                <button
+                    type="button"
+                    class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#Navbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink1"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                People
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink1"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="people/faculty.html"
+                                    >Faculty</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="people/students.html"
+                                    >Students</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="people/alumni.html"
+                                    >Alumni</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="people/prospective-faculty.html"
+                                    >Prospective-Faculty</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink2"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Programs
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink2"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="programs/btech.html"
+                                    >B.Tech</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="programs/minor.html"
+                                    >B.Tech Minor</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="programs/mtech_ta.html"
+                                    >M.Tech 2 Years</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="programs/mtech_ra.html"
+                                    >M.Tech 3 Years</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="programs/phd.html"
+                                    >PhD</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink3"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Admissions
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink3"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="mtech-admissions.html"
+                                    >M.Tech Admissions</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="phd-admissions.html"
+                                    >PhD Admissions</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="https://docs.google.com/document/d/1f4KA1xEYYrpxXVHRLODmmZyyibKF3bPH0O-Vfr6nvkc/edit?usp=sharing"
+                                    target="_blank"
+                                    >FAQs</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink5"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Research
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink5"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/infrastructure.html"
+                                    >Infrastructure</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/ai-research-centre.html"
+                                    >AI Research Centre</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/collaborations.html"
+                                    >Collaborations</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/projects.html"
+                                    >Projects</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/publications.html"
+                                    >Publications</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="../research/awards.html"
+                                    >Awards</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink5"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Academics
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink5"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS_BKv669yvlmTPusR8szyjN0Qs-OOSxe75jqUyNZDPhAMmBdFvExhjMYxJmpRr6vkYaqz0p-hAMWSl/pubhtml"
+                                    >Courses in JAN 2025 SEM</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQc6Pgy3m7bKPXCDafvq6Zlay21MmbENGTRqTtZU2ur8xnXyQEYHakgzUKrySRp1w/pubhtml"
+                                    >Timetable for JAN 2025 SEM</a
+                                >
+                               
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                role="button"
+                                id="dropdownMenuLink4"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                News &amp; Events
+                            </a>
+
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuLink4"
+                            >
+                                <a
+                                    class="dropdown-item"
+                                    href="news-and-events/all-news.html"
+                                    >News</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="news-and-events/seminar-talks.html"
+                                    >Events</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="news-and-events/others.html"
+                                    >Others</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact/contact.html"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <div class="background div-4">
+			<div class="container align-items-center">
+				<div class="">
+					<div class="white-background">
+					</div>
+					<div class="blur">
+						<img src="img/iithlogo.png" alt="logo" width="100px" height="100px">
+						<div class="">
+							<span class="bold-green">Indian Institute of Technology, Hyderabad</span> <br>
+							<span class="IITH">Department of Artificial Intelligence</span>
+						</div>
+					</div>
+					<img src="img/Acad.jpg" alt="acad" class="home-img" width="80%" height="40%">
+				</div>
+			</div>
+		</div>
+
+		<div class="white-space">
+		</div> -->
+
+        <div class="div-5 background">
+            <div class="container-carousel no_padding">
+                <div
+                    id="mycarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#mycarousel"
+                            data-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <table>
+                                <tr>
+                                    <td class="carousel-image">
+                                        <a
+                                            href="https://ai.iith.ac.in/people/faculty.html"
+                                            ><img
+                                                src="carousel/AI-Expertise.jpg"
+                                                alt="AI Expertise"
+                                        /></a>
+                                    </td>
+                                    <td
+                                        class="mycarouseltext align_center d-none d-lg-table-cell"
+                                    >
+                                        <h3>Expertise in the AI Department</h3>
+                                        <p>
+                                            The AI Department Faculty members at
+                                            IITH work on multiple areas starting
+                                            from foundational aspects of AI to
+                                            application-specific areas. Please
+                                            browse the website to know more
+                                            about the spectrum of work done at
+                                            the department.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <table>
+                                <tr>
+                                    <td class="carousel-image">
+                                        <a
+                                            href="research/ai-research-centre.html"
+                                            ><img
+                                                src="carousel/centre_1.jpeg"
+                                                alt="ai centre"
+                                        /></a>
+                                    </td>
+                                    <td
+                                        class="mycarouseltext align_center d-none d-lg-table-cell"
+                                    >
+                                        <h3>
+                                            Centre for Research and Innovation
+                                            in AI (क्रिया)
+                                        </h3>
+                                        <p>
+                                            Department of AI establishes a
+                                            Centre for Research and Innovation
+                                            in AI (क्रिया) with the support of
+                                            JICA and Honeywell. The dedicated
+                                            centre for AI will serve various
+                                            computing and resource needs of
+                                            researchers working in AI at IIT
+                                            Hyderabad.
+                                        </p>
+                                        <p>
+                                            Click
+                                            <a
+                                                href="research/ai-research-centre.html"
+                                                >here</a
+                                            >
+                                            to know more
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="carousel-item">
+                            <table>
+                                <tr>
+                                    <td class="carousel-image">
+                                        <a
+                                            href="news-and-events/others/ai-infrastructure.html"
+                                            ><img
+                                                src="carousel/1.png"
+                                                alt="infrastructure"
+                                        /></a>
+                                    </td>
+                                    <td
+                                        class="mycarouseltext align_center d-none d-lg-table-cell"
+                                    >
+                                        <h3>AI Infrastructure at IITH</h3>
+                                        <p>
+                                            IIT Hyderabad has state of the art
+                                            computing facilities to foster
+                                            Artificial Intelligence and Machine
+                                            Learning research. With multiple
+                                            collaborations with leading industry
+                                            partners, we are pushing the
+                                            boundaries of AI with applications
+                                            spanning various domains.
+                                        </p>
+                                        <p>
+                                            Click
+                                            <a
+                                                href="news-and-events/others/ai-infrastructure.html"
+                                                >here</a
+                                            >
+                                            to know more
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="carousel-item">
+                            <table>
+                                <tr>
+                                    <td class="carousel-image">
+                                        <a
+                                            href="news-and-events/others/ai-iith-in-news.html"
+                                            ><img
+                                                src="carousel/3.png"
+                                                alt="IITH on top"
+                                        /></a>
+                                    </td>
+                                    <td
+                                        class="mycarouseltext align_center d-none d-lg-table-cell"
+                                    >
+                                        <h2>AI-IITH in News</h2>
+                                        <p>
+                                            Newspaper clippings of Department of
+                                            AI-IITH.
+                                        </p>
+                                        <p>
+                                            Click
+                                            <a
+                                                href="news-and-events/others/ai-iith-in-news.html"
+                                                >here</a
+                                            >
+                                            to know more
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="carousel-item">
+                            <table>
+                                <tr>
+                                    <td class="carousel-image">
+                                        <a
+                                            href="news-and-events/others/research-scholar.html"
+                                            ><img
+                                                src="carousel/2.png"
+                                                alt="research-scholar"
+                                        /></a>
+                                    </td>
+                                    <td
+                                        class="mycarouseltext align_center d-none d-lg-table-cell"
+                                    >
+                                        <h4>AI Research Scholar's Day</h4>
+                                        <p>
+                                            Every year, departments at IIT-H
+                                            organize Research Scholars' day that
+                                            sees participation from various
+                                            professors and key researchers from
+                                            the institute as well as other
+                                            institutes, who present the
+                                            significant highlights of their
+                                            research made in multiple areas. The
+                                            talks are followed by presentations
+                                            from some Ph.D. students, who
+                                            showcase their research and its
+                                            significance in real life.
+                                        </p>
+                                        <p>
+                                            Click
+                                            <a
+                                                href="news-and-events/others/research-scholar.html"
+                                                >here</a
+                                            >
+                                            to know more
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <a
+                        class="carousel-control-prev"
+                        href="#mycarousel"
+                        data-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a
+                        class="carousel-control-next"
+                        href="#mycarousel"
+                        data-slide="next"
+                    >
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 
+		<div class="white-space">
+		</div> -->
+
+        <div class="background div-3">
+            <div class="container">
+                <div class="column1">
+                    <h2 class="heading">Announcements</h2>
+                    <ul class="gap">
+                        <li>
+                            <span class="badge">New</span>
+                            <strong>Jan 22, 2025:</strong>
+                            Ideathon AI Day2025: <a href=pdf/Ideathon-Poster-AI-Day-2025.pdf>POSTER</a> with <a href=pdf/Ideathon-Brochure.pdf> DOCUMENT</a>.
+                        </li>
+                        <li>
+                            <strong>July 8, 2024:</strong>
+                            We have completed the PHD selection
+                            process. The offer letters have been mailed to all
+                            the selected candidates.
+                        </li>
+                        <li>
+                            <strong>June 24, 2024:</strong>
+                            We have completed the MTech RA and SS selection
+                            process. The offer letters have been mailed to all
+                            the selected candidates.
+                        </li>
+                        <li>
+                            <!-- <span class="badge">New</span> -->
+                            <strong>June 6, 2024:</strong>
+                            List of applicants shortlisted for MTech RA final
+                            round interview in online mode
+                            <a
+                                href="pdf\MTech(RA) - Final interview list.pdf"
+                                target="_blank"
+                                >here
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <span class="badge">New</span> -->
+                            <strong>June 3, 2024:</strong>
+                            Please find the list of shortlisted candidates for
+                            interview for the programs
+                            <a
+                                href="https://docs.google.com/document/d/1nU0EEH8R6q5chAadz959otmtNyW6jTblidgxNMAwz1o/edit?usp=sharing"
+                                >MTech (SS)</a
+                            >
+                            &
+                            <a
+                                href="https://docs.google.com/document/d/1_Ztms6m6P2qu-d0MJO05T6CIDaqhysmUyM0qzoD4GfE/edit?usp=sharing"
+                                >MTech (RA)</a
+                            >.
+                        </li>
+                        <li>
+                            <!-- <span class="badge">New</span> -->
+                            <strong>May 29, 2024:</strong>
+                            Please note that the shortlisting process for PhD
+                            programs has been completed, and the shortlisted
+                            candidates have been informed through email. We
+                            advise all applicants to check their email
+                            thoroughly (including the spam folder). You can find
+                            the application numbers of the shortlisted
+                            candidates here:
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRroAC8OQSo95ZXHW3xZJaS0HsKtGGe_ub4YQuYQsgdVLisJ0PbAVC-qyGCSU59ig/pubhtml?gid=857985215&single=true"
+                                >PHD (External)</a
+                            >
+                            &
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyDk-tXoZReujGnrkZFyOWpuCgvPbqTuIYY2m-MFbpMrZF6-nrPDsrkGDxAiNnKQ/pubhtml?gid=1855436391&single=true"
+                                >PHD (Regular)</a
+                            >
+                        </li>
+                        <li>
+                            <!-- <span class="badge">New</span> -->
+                            <strong>May 27, 2024:</strong>
+                            Please note that the shortlisting process for the
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxESqlNJsUx2AUw4Y7f6O8hzM-SzWMQ0Lz9lZuqvyIQQf1wGqtL5XZnVStckWq1w/pubhtml?gid=502776438&single=true"
+                                >MTech (SS)</a
+                            >
+                            &
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRCWX1-SlajABxPQDa6GjXLzL4amxay0f2gOpWsTKrkoATx8xOrmylQJT6JNxOaow/pubhtml?gid=1362244524&single=true&urp=gmail_link"
+                                >MTech (RA)</a
+                            >
+                            programs has been completed, and the shortlisted
+                            candidates have been informed through email. We
+                            advise all applicants to check their email
+                            thoroughly (including the spam folder). You can find
+                            the application numbers of the shortlisted
+                            candidates here:
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxESqlNJsUx2AUw4Y7f6O8hzM-SzWMQ0Lz9lZuqvyIQQf1wGqtL5XZnVStckWq1w/pubhtml?gid=502776438&single=true"
+                                >MTech (SS)</a
+                            >
+                            &
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRCWX1-SlajABxPQDa6GjXLzL4amxay0f2gOpWsTKrkoATx8xOrmylQJT6JNxOaow/pubhtml?gid=1362244524&single=true&urp=gmail_link"
+                                >MTech (RA)</a
+                            >
+                        </li>
+                        <li>
+                            <strong>May 17, 2024:</strong> The PhD Admission
+                            process will tentatively be conducted on
+                            <b>3/4/5 June 2024</b> in physical mode.
+                        </li>
+                        <li>
+                            <strong>May 14, 2024:</strong> The M.Tech Admission
+                            process <b>(for RA and SS streams)</b> will
+                            tentatively be conducted on
+                            <b>3/4/5 June 2024</b> in physical mode.
+                        </li>
+                        <li>
+                            <strong>Apr 19, 2024:</strong>
+                            <a
+                                href="https://sites.google.com/view/ganeshghalme/home"
+                                >Dr. Ganesh Ghalme</a
+                            >
+                            becomes the Head of the Department for the AI
+                            Department. The Department thanks
+                            <a href="https://people.iith.ac.in/maunendra/"
+                                >Dr. Maunendra</a
+                            >
+                            for the support he rendered to the department during
+                            his tenure.
+                        </li>
+                        <li>
+                            <strong>Apr 14, 2024:</strong> Application deadline
+                            for both MTech and PhD admissions has been extended
+                            to <b>April 20, 2024.</b>
+                        </li>
+                        <li>
+                            <strong>Mar 25, 2024:</strong> The notifications for
+                            the July 2024 round of MTech and PhD admissions are
+                            out. Please check the Admissions tab for more
+                            details.
+                        </li>
+                        <li>
+                            <strong>Dec 14, 2023:</strong> The candidates
+                            selected for the MTech and PhD programs for the
+                            January 2024 round are informed by email.
+                        </li>
+                        <li>
+                            <strong>Oct 27, 2023:</strong> Application deadline
+                            for MTech and PhD admissions for January 2024 round
+                            is extended to 2nd November 2023 5pm.
+                        </li>
+                        <li>
+                            <strong>Oct 24, 2023:</strong> PhD January 2024
+                            admission cycle details can be found
+                            <a href="./phd-admissions.html">here</a>. Deadline
+                            <b>26th October 2023</b>.
+                        </li>
+                        <li>
+                            <strong>Oct 24, 2023:</strong> M.Tech January 2024
+                            admission cycle details can be found
+                            <a href="./mtech-admissions.html">here</a>. Deadline
+                            <b>29th October 2023</b>.
+                        </li>
+                        <li>
+                            <strong>Oct 12, 2023:</strong> The department
+                            invites applications for the PhD program, for the
+                            January 2024 cycle. More details
+                            <a href="./phd-admissions.html">here</a>.
+                        </li>
+                        <li>
+                            <strong>Oct 12, 2023:</strong>
+                            <a href="https://iith.ac.in/ai/rekha.raja/"
+                                >Dr. Rekha Raja</a
+                            >
+                            joins the department as a faculty member. Her areas
+                            of interest include Robotics and Motion planning.
+                        </li>
+                        <li>
+                            <strong>Sep 13, 2023:</strong>
+                            <a
+                                href="https://www.linkedin.com/in/easwar-subramanian/"
+                                >Dr. Easwara Subramanian</a
+                            >
+                            joins the department as an adjunct faculty member.
+                            He is a Senior Scientist at TCS Innovation Labs. Dr.
+                            Easwara works in the area of Reinforcement Learning.
+                        </li>
+                        <li>
+                            <strong>Jun 20, 2023:</strong> Open day for JEE
+                            aspirants are scheduled today and tomorrow. For
+                            details, please check
+                            <a href="https://iith.ac.in/jee-open-day-23/"
+                                >this link</a
+                            >.
+                        </li>
+                        <li>
+                            <strong>Mar 27, 2023:</strong> M.Tech July 2023
+                            admission cycle details can be found
+                            <a href="./mtech-admissions.html">here</a>. Deadline
+                            <b>23 April 2023</b>.
+                        </li>
+                        <li>
+                            <strong>Mar 27, 2023:</strong> PhD July 2023
+                            admission cycle details can be found
+                            <a href="./phd-admissions.html">here</a>. Deadline
+                            <b>23 April 2023</b>.
+                        </li>
+                        <!-- <li><strong>Oct 29, 2022:</strong> M.Tech Jan 2023 admission cycle details can be seen <a href="https://ai.iith.ac.in/mtech-admissions.html">here</a>.</li>
+						<li><strong>Oct 29, 2022:</strong> PhD Jan 2023 admission cycle details can be seen <a href="https://ai.iith.ac.in/phd-admissions.html">here</a>.</li>
+						<li><strong>Oct 7, 2022:</strong> Currently accepting applications for PhD admissions to Jan 2023 Cycle. Deadline <b>14th October 2022</b>. Please see the <a href="https://www.iith.ac.in/phdadmissions/">link</a>.</li>						
+						<li><strong>August 2, 2022:</strong> The timetable for the Aug-Nov 2022 semester can be seen <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQHBIRqXwZuhV3VDubewqXHYzqVjVKLmdePHsPDfGBdqIVGFStPhragFWk3fNNIzw/pubhtml?gid=1981235624&single=true">here</a>.</li>
+						<li><strong>July 12, 2022:</strong> Candidates selected for the Mtech (RA), Mtech (SS) and Mtech (Govt Lab sponsored) programs have been informed by email.</li>
+						<li><strong>May 18, 2022: The written test for shortlisted applicants to the PhD program will be held on <em>Saturday, June 4, 2022 </em>in online mode. The shortlisted candidates will be informed by email in a few days.</strong></li>
+						<li><strong>May 17, 2022: The written test for shortlisted applicants to the M Tech (RA) and M Tech (SS) programs will be held on <em>Saturday, June 4, 2022 </em>in online mode. The shortlisted candidates will be informed by email in a couple of days.</strong></li>
+						<li><strong>Currently accepting applications for PhD admissions for July 2022 cycle. <em>Deadline: 17th April 2022</em>. Please see this <a href="https://www.iith.ac.in/phdadmissions" target="_blank">link</a> for details and application procedures.</strong></li>
+						<li><strong>Currently accepting applications for MTech admissions for July 2022 cycle. <em>Deadline: 17th April 2022</em>. Please see this <a href="https://www.iith.ac.in/mtech-admissions" target="_blank">link</a> for details and application procedures.</strong></li> -->
+                    </ul>
+                </div>
+                <br /><br />
+                <div class="col-12">
+                    <h3 class="bold-green sub-heading">About the Department</h3>
+                    <p class="justify-content">
+                        To know more about the department, you may go through
+                        this <a href=pdf/AI-Dept-Brochure.pdf>brochure.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="white-space"></div>
+
+        <div class="background div-1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <h3 class="bold-green sub-heading">
+                            <br />Department of AI at IIT Hyderabad
+                        </h3>
+                        <p class="justify-content">
+                            The Department of AI @ IIT Hyderabad's mission is to
+                            produce students with a sound understanding of the
+                            fundamentals of the theory and practise of
+                            Artificial Intelligence and Machine Learning. The
+                            mission is also to enable students to become leaders
+                            in the industry and academia nationally and
+                            internationally. Finally, the mission is to meet the
+                            pressing demands of the nation in the areas of
+                            Artificial Intelligence and Machine Learning
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="d07-raw-html">
+                            <div class="d07">
+                                <!--<a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/AI_IITHyderabad?ref_src=twsrc%5Etfw">Tweets by AI_IITHyderabad</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+                                <a
+                                    href="https://www.linkedin.com/company/ai-iith/"
+                                    >Posts by AI, IIT Hyderabad</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="white-space"></div>
+
+        <div class="background div-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <iframe
+                            width="100%"
+                            height="300px"
+                            src="https://www.youtube.com/embed/g_Kn4BsDilA?mute=1&autoplay=1&loop=1&playlist=g_Kn4BsDilA"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="bold-green sub-heading">
+                            <br />Professional Program in AI and Emerging
+                            Technologies
+                        </h3>
+                        <p class="justify-content">
+                            A 5-week full-time Professional Program in
+                            Artificial Intelligence and Emerging Technologies,
+                            jointly offered by IIT Hyderabad and TalentSprint,
+                            and delivered on IIT Hyderabad's Campus during the
+                            summer of 2019. The Program is best suited for Young
+                            Professionals and College Graduates seeking to build
+                            world-class expertise in AI and emerging
+                            technologies, and obtain professional certification
+                            from IIT Hyderabad. Details can be found
+                            <a
+                                href="https://iithyderabad.talentsprint.com/aiet/"
+                                target="_blank"
+                                >here</a
+                            >.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="white-space"></div>
+
+        <div class="background div-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="column1">
+                            <h2 class="heading">Highlights</h2>
+                            <ul class="gap">
+                                <li>
+                                    21-May-2024:Dr. Ganesh Sambhaji Ghalme,
+                                    Department of Artificial Intelligence has
+                                    recently received a Bill & Melinda Gate
+                                    Foundation Grant.
+                                </li>
+                                <li>
+                                    29-Dec-2023: Dr. Maunendra's interview with
+                                    <a href=https://indiaai.gov.in />IndiaAI
+                                </li>
+                                can be accessed
+                                <a
+                                    href="https://indiaai.gov.in/article/be-a-good-problem-solver-and-programmer-to-get-into-ai-research"
+                                    >here</a
+                                >.
+                                <li>
+                                    17-Oct-2023: AI 2021 batch BTech student
+                                    Lokesh Badisha and team ranks third in 2023
+                                    Video and Image Processing (VIP) cup
+                                    organized by IEEE Signal Processing Society,
+                                    as part of International Conference on Image
+                                    Processing (ICIP).
+                                </li>
+                                <li>
+                                    9-Oct-2023:
+                                    <a
+                                        href="https://people.iith.ac.in/vineethnb/"
+                                        >Dr. Vineeth</a
+                                    >
+                                    and
+                                    <a
+                                        href="https://people.iith.ac.in/maunendra/"
+                                        >Dr. Maunendra</a
+                                    >
+                                    present their work and viewpoints at the
+                                    <a
+                                        href="https://sites.google.com/view/bindisummit2023/home?authuser=0"
+                                        >BINDI</a
+                                    >
+                                    (Biases in NLP models and Data for the
+                                    Indian Context) Summit organized by Google.
+                                </li>
+                                <li>
+                                    27-Aug-2023: Center for Geospatial AI and
+                                    Digital Twins established at IIT Hyderabad.
+                                    Read more about this
+                                    <a
+                                        href="https://pr.iith.ac.in/pressrelease/CGDT.pdf"
+                                        >here</a
+                                    >.
+                                </li>
+                                <li>
+                                    25-July-2023:
+                                    <a
+                                        href="https://people.iith.ac.in/sumohana/"
+                                        >Dr. Sumohana</a
+                                    >
+                                    and
+                                    <a
+                                        href="https://people.iith.ac.in/maunendra/"
+                                        >Dr. Maunendra</a
+                                    >
+                                    present their works at the Royal Society
+                                    Yusuf Hamied Workshop for India and the UK,
+                                    organized by Royal Society, UK, and Indian
+                                    National Science Academy.
+                                </li>
+                                <li>
+                                    21-July-2023:
+                                    <a href="https://krmopuri.github.io/"
+                                        >Dr. Konda Reddy</a
+                                    >
+                                    organized a
+                                    <a
+                                        href="https://krmopuri.github.io/tutorials/dfke-ncvpripg-2023.html"
+                                        >tutorial on Data-free Knowledge
+                                        Extraction from Deep Neural Networks</a
+                                    >
+                                    as part of the
+                                    <a
+                                        href="https://events.iitj.ac.in/ncvpripg2023/"
+                                        >NCVPRIPG 2023</a
+                                    >
+                                    conference.
+                                </li>
+                                <!--li>Aug 2021: <a href = "research/ai-research-centre.html">Centre for Research and Innovation in AI (क्रिया)</a></li>
+								<li>Jul 2021: <a href = "news-and-events/others/research-scholar.html">AI Research Scholar's Day</a></li>
+								<li>Jul 2020: <a href = "news-and-events/all-news/nvidia-establishes-india-first-nv-ai-centre-at-iit-hyderabad.html">NVIDIA establishes India's first NV AI Centre at IIT-Hyderabad.</a></li>
+								<li>Jan 2020: <a href = "news-and-events/all-news/iit-hyderabad-signs-mou-with-telangana-govt-on-the-occasion-of-the-year-of-ai.html">IIT-Hyderabad signs MoU with Telangana Govt on the occasion of the "Year of AI".</a></li>
+								<li>Dec 2020: <a href = "news-and-events/all-news/technology-innovation-hub-on-autonomous-navigation-tihan.html">Technology Innovation Hub on Autonomous Navigation - TiHAN</a></li>
+								<li>Oct 2020: <a href = "news-and-events/all-news/covid-19-modelling.html">Covid-19 Modelling</a></li-->
+                            </ul>
+                        </div>
+                        <br /><br />
+                    </div>
+                    <div class="col-12 col-md-6 text-middle">
+                        <div class="column2">
+                            <h2 class="heading">Seminar Talks</h2>
+                            <ul class="gap">
+                                <li>
+                                    02-March-2024:
+                                    <a
+                                        href="/news-and-events/seminar-talks/balancing-skepticism-and-innovation.html"
+                                        >Balancing Skepticism and Innovation:
+                                        The Intersection of Entrepreneurship and
+                                        AI</a
+                                    >
+                                </li>
+                                <li>
+                                    17-Feb-2024:
+                                    <a
+                                        href="/news-and-events/seminar-talks/ai-adoption-in-industry.html"
+                                        >Overview of AI Adoption in Industry -
+                                        Case Studies and Approach</a
+                                    >
+                                </li>
+                                <li>
+                                    01-Feb-2024:
+                                    <a
+                                        href="/news-and-events/seminar-talks/building-useful-robots.html"
+                                        >Building useful Robots - from Industry
+                                        to House-hold</a
+                                    >
+                                </li>
+                                <li>
+                                    16-Jan-2024:
+                                    <a
+                                        href="news-and-events/seminar-talks/LLMs-for-Everybody.html"
+                                        >LLMs for Everybody: How inclusive are
+                                        the LLMs today and Why should we
+                                        care?</a
+                                    >
+                                </li>
+                                <li>
+                                    15-Nov-2023:
+                                    <a
+                                        href="news-and-events/seminar-talks/The-Missing-Foundations-of-Interpretable-Machine-Learning.html"
+                                        >The Missing Foundations of
+                                        Interpretable Machine Learning.</a
+                                    >
+                                </li>
+                                <li>
+                                    31-Oct-2023:
+                                    <a
+                                        href="news-and-events/seminar-talks/Dealing with Challenges of Sparse Rewards in Model-Free and Model-Based Reinforcement Learning.html"
+                                        >Dealing with Challenges of Sparse
+                                        Rewards in Model-Free and Model-Based
+                                        Reinforcement Learning.</a
+                                    >
+                                </li>
+                                <!-- <li>13-Oct-2023: <a href="news-and-events/seminar-talks/Towards Safe, Secure, and Trustworthy Machine Learning Applications in CPS.html">Towards Safe, Secure, and Trustworthy Machine Learning Applications in Cyber-Physical Systems </a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div
+                            id="header-widget-area"
+                            class="hw-widget widget-area"
+                            role="complementary"
+                        >
+                            <img
+                                src="img/iithlogo.png"
+                                class="img-footer"
+                                alt="IITH Logo"
+                            /><br />
+                            <h5>Artificial Intelligence</h5>
+                            <h5>IIT Hyderabad</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div
+                            id="header-widget-area"
+                            class="hw-widget widget-area"
+                            role="complementary"
+                        >
+                            <div class="widget_text hw-widget">
+                                <h4 class="hw-title">Quicklinks</h4>
+                                <div class="textwidget custom-html-widget">
+                                    <a
+                                        class="navigate"
+                                        href="programs/btech.html"
+                                        >Programs</a
+                                    ><br />
+                                    <a
+                                        class="navigate"
+                                        href="mtech-admissions.html"
+                                        >Admissions</a
+                                    ><br />
+                                    <a
+                                        class="navigate"
+                                        href="https://ocs.iith.ac.in/"
+                                        target="_blank"
+                                        >Placements</a
+                                    ><br />
+                                    <a
+                                        class="navigate"
+                                        href="https://pcr.iith.ac.in/newsletter.html"
+                                        target="_blank"
+                                        >KirIITH</a
+                                    ><br />
+                                    <a
+                                        class="navigate"
+                                        href="contact/contact.html"
+                                        >Contact Us</a
+                                    ><br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div
+                            id="header-widget-area"
+                            class="hw-widget widget-area"
+                            role="complementary"
+                        >
+                            <div class="widget_text hw-widget">
+                                <h4 class="hw-title">Follow Us</h4>
+                                <div class="textwidget custom-html-widget">
+                                    <a
+                                        href="https://www.linkedin.com/company/ai-iith"
+                                        target="_blank"
+                                        ><i class="fa fa-linkedin fa-2x"></i
+                                        >&nbsp</a
+                                    >
+                                    <a
+                                        href="https://twitter.com/AI_IITHyderabad"
+                                        target="_blank"
+                                        ><i class="fa fa-twitter fa-2x"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+            <div id="footer-bottom">
+                <br />
+                <div class="col-md-6 text-left">
+                    Copyright &copy; 2021 Department of AI, IIT Hyderabad
+                </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
